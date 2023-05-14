@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+int i,j,n;
+    printf("Enter line number:\n");
+    scanf("%d",&n);
+  for(i=1;i<=n;i++)
+  {
+    for(j=1;j<=i;j++)
+        {
+            printf("%d",j);
+            if(j%2==0)
+            printf("a");
+            else
+            printf("b");
+        }
+            printf("\n");
+  }
+  return 0;
+}
